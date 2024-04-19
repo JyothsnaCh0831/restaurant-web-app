@@ -8,6 +8,15 @@
     position: relative;
 }
 
+.register-container .navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 35px;
+    color: orangered;
+}
+
 .register-container .bg-img img {
     position: absolute;
     top: 0;

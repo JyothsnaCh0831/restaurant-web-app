@@ -1,4 +1,8 @@
 <div class="register-container">
+    <a class="navbar-brand" routerLink="/">
+        <span></span>
+        Mei Wei
+    </a>
     <div class="bg-img">
         <img src="../../assets/login-register.png" alt="">
     </div>
@@ -42,10 +46,11 @@
                 </div>
             </div>
             <button class="btn btn-md register-btn">SignUp</button>
-            <p class="login-tag">
+            <p class="login-tag" routerLink="/login">
                 Already have an account?
                 <span>Login</span>
             </p>
         </form>
     </div>
 </div>
+<router-outlet></router-outlet>
