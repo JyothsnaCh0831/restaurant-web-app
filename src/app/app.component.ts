@@ -6,11 +6,12 @@ import { MenuComponent } from './menu/menu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, LoginComponent, HomeComponent, MenuComponent, ContactUsComponent, FooterComponent],
+  imports: [RouterOutlet, NavbarComponent, LoginComponent, SignUpComponent, HomeComponent, MenuComponent, ContactUsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
