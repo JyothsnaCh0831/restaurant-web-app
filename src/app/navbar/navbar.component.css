@@ -27,8 +27,6 @@
 
 .navbar-nav .nav-link:not(.activebutton):hover {
     color: orangered;
-    border-radius: 20px;
-    padding: 8px 18px;
 }
 
 .navbar-collapse {
