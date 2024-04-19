@@ -37,3 +37,10 @@
         margin: 15px 0px;
     }
 }
+
+
+/* Router Link Cursor Type */
+h3[routerLink],
+li[routerLink] {
+    cursor: pointer;
+}
