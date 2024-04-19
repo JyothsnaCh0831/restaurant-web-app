@@ -22,7 +22,15 @@
     font-size: 13px;
 }
 
+.contact-us-form .form-control:focus {
+    border: 1px solid orangered;
+    box-shadow: none;
+}
+
 .contact-us-form .btn {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
     background-color: orangered;
     color: white;
 }
